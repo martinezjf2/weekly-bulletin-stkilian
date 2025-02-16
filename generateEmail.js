@@ -77,7 +77,7 @@ function commitAndPushChanges() {
   const commitMessage = `Auto-update MJML & HTML files on ${new Date().toISOString()}`;
 
   exec(
-    `export HOME=/home/$(whoami) && eval $(ssh-agent -s) && ssh-add ~/.ssh/id_rsa && git add . && git commit -m "${commitMessage}" && git push origin main`,
+    `export HOME=/Users/jeffreymartinez && eval $(ssh-agent -s) && ssh-add /Users/jeffreymartinez/.ssh/id_rsa && git add . && git commit -m "${commitMessage}" && git push origin main`,
     (error, stdout, stderr) => {
       if (error) {
         console.error("❌ Git command failed:", error.message);
