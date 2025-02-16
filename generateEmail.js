@@ -74,8 +74,10 @@ async function updateMjmlEmail() {
 function commitAndPushChanges() {
   console.log("🚀 Running Git commands...");
 
+  const commitMessage = `Auto-update MJML & HTML files on ${new Date().toISOString()}`;
+
   exec(
-    `git add . && git commit -m "Auto-update MJML&HTML files on $(date)" && git push origin main`,
+    `git add . && git commit -m "${commitMessage}" && git push origin main`,
     (error, stdout, stderr) => {
       if (error) {
         console.error("❌ Git command failed:", error.message);
