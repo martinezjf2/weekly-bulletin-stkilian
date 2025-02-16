@@ -1,0 +1,70 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+
+      }
+    </mj-style>
+
+    <!-- The inline style will be used for reusability throughout the email. -->
+    <mj-style inline="inline">
+
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+
+  <mj-wrapper background-color="#f4f4f4" padding="20px">
+
+  {{BULLETIN}}
+
+  </mj-wrapper>
+
+
+  </mj-body>
+</mjml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- dont have to write the < symbol, it will autocomplete the tags just writing it like this: mjcolumn 
+
+By default emails should be 600px for Desktop size
+
+
+-->

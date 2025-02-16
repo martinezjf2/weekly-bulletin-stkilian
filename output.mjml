@@ -1,0 +1,80 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+
+      }
+    </mj-style>
+
+    <!-- The inline style will be used for reusability throughout the email. -->
+    <mj-style inline="inline">
+
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+
+  <mj-wrapper background-color="#f4f4f4" padding="20px">
+
+  
+    <mj-section background-color='white' padding='40px 20px' border-radius='8px'>
+        <mj-column>
+            <mj-text font-size='22px' font-weight='bold' color='#333' align='center'>📢 Stay Updated! View Our Latest Weekly Bulletin</mj-text>
+            <mj-text font-size='18px' color='#555' align='center'>🗓 February 9, 2025</mj-text>
+            <mj-divider border-color='#ddd' width='60%'></mj-divider>
+            <mj-image src='https://img.ecatholic.com/11377/bulletins/20250209.jpg?t=1738981981000' width='400px' border-radius='8px' target='_blank' href='https://files.ecatholic.com/11377/bulletins/20250209.pdf?t=1738981981000'></mj-image>
+            <mj-button href='https://files.ecatholic.com/11377/bulletins/20250209.pdf?t=1738981981000' target='_blank' font-size='18px' font-weight='bold' background-color='#007bff' color='white' border-radius='6px' padding='12px 24px' align='center'>📖 Read Now</mj-button>
+        </mj-column>
+    </mj-section>
+    
+
+  </mj-wrapper>
+
+
+  </mj-body>
+</mjml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- dont have to write the < symbol, it will autocomplete the tags just writing it like this: mjcolumn 
+
+By default emails should be 600px for Desktop size
+
+
+-->
