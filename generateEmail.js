@@ -2,7 +2,8 @@ const fs = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const mjml = require("mjml");
-const {exec} = require("child_process")
+const { exec } = require("child_process")
+
 // const nodemailer = require("nodemailer");
 
 async function scrapeData() {
@@ -74,7 +75,7 @@ function commitAndPushChanges() {
   console.log("🚀 Running Git commands...");
 
   exec(
-    `git add output.mjml new-bulletin.html && git commit -m "Auto-update MJML&HTML files on $(date)" && git push origin main`,
+    `git add . && git commit -m "Auto-update MJML&HTML files on $(date)" && git push origin main`,
     (error, stdout, stderr) => {
       if (error) {
         console.error("❌ Git command failed:", error.message);
