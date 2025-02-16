@@ -2,6 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const mjml = require("mjml");
+const {exec} = require("child_process")
 // const nodemailer = require("nodemailer");
 
 async function scrapeData() {
