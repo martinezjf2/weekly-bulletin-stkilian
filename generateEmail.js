@@ -91,34 +91,9 @@ function commitAndPushChanges() {
   );
 }
 
-// Added a new comment
-// async function sendEmail() {
-//   const emailHtml = await generateEmail();
-
-//   const transporter = nodemailer.createTransport({
-//     service: "gmail",
-//     auth: {
-//       user: "martinezjf2@gmail.com",
-//       pass: "Karla@16",
-//     },
-//   });
-
-//   const mailOptions = {
-//     from: "martinezjf2@gmail.com",
-//     to: "martinezjf2@gmail.com",
-//     subject: "Latest Bulletins",
-//     html: emailHtml,
-//   };
-
-//   transporter.sendMail(mailOptions, (error, info) => {
-//     if (error) {
-//       console.error("Error sending email:", error);
-//     } else {
-//       console.log("Email sent:", info.response);
-//     }
-//   });
-// }
 
 updateMjmlEmail();
 
 // Add a border on the image of the bulletin and add a title tag for the email bar
+// Added a github automatic push as the background using pm2,
+// make sure to have ssh installed in github as a key, and clone as ssh for macbook
