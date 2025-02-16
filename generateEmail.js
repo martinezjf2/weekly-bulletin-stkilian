@@ -89,6 +89,7 @@ function commitAndPushChanges() {
   );
 }
 
+// Added a new comment
 // async function sendEmail() {
 //   const emailHtml = await generateEmail();
 
