@@ -42,7 +42,6 @@ async function updateMjmlEmail() {
     const scrapedData = await scrapeData();
     
     let mjmlTemplate = fs.readFileSync("index.mjml", "utf-8");
-  console.log(scrapedData.date);
 
   const email = `
     <mj-section background-color='white' padding='40px 20px' border-radius='8px'>
@@ -65,7 +64,7 @@ async function updateMjmlEmail() {
     const emailHtml = mjml(mjmlTemplate).html;
     fs.writeFileSync("new-bulletin.html", emailHtml, "utf8");
 
-    console.log('Generated HTML email saved as output.html');
+    console.log('Generated HTML email saved as new-bulletin.html');
     
     
   commitAndPushChanges();
