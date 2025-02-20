@@ -20,10 +20,10 @@
     <mj-section background-color='white' padding='40px 20px' border-radius='8px'>
         <mj-column>
             <mj-text font-size='22px' font-weight='bold' color='#333' align='center'>📢 Stay Updated! View Our Latest Weekly Bulletin</mj-text>
-            <mj-text font-size='18px' color='#555' align='center'>🗓 February 16, 2025</mj-text>
+            <mj-text font-size='18px' color='#555' align='center'>🗓 </mj-text>
             <mj-divider border-color='#ddd' width='60%'></mj-divider>
-            <mj-image src='https://img.ecatholic.com/11377/bulletins/20250216.jpg?t=1739577862000' width='400px' border-radius='8px' target='_blank' href='https://files.ecatholic.com/11377/bulletins/20250216.pdf?t=1739577862000'></mj-image>
-            <mj-button href='https://files.ecatholic.com/11377/bulletins/20250216.pdf?t=1739577862000' target='_blank' font-size='18px' font-weight='bold' background-color='#007bff' color='white' border-radius='6px' padding='12px 24px' align='center'>📖 Read Now</mj-button>
+            <mj-image src='undefined' width='400px' border-radius='8px' target='_blank' href='undefined'></mj-image>
+            <mj-button href='undefined' target='_blank' font-size='18px' font-weight='bold' background-color='#007bff' color='white' border-radius='6px' padding='12px 24px' align='center'>📖 Read Now</mj-button>
         </mj-column>
     </mj-section>
     
