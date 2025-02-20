@@ -96,3 +96,4 @@ updateMjmlEmail();
 // Add a border on the image of the bulletin and add a title tag for the email bar
 // Added a github automatic push as the background using pm2,
 // make sure to have ssh installed in github as a key, and clone as ssh for macbook
+// Would need to update every Monday instead of every tuesday and set pm2 up again to happen every Monday
