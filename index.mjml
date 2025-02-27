@@ -14,7 +14,7 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-  <mj-wrapper background-color="#f4f4f4" padding="20px">
+  <mj-wrapper>
 
   {{BULLETIN}}
 
