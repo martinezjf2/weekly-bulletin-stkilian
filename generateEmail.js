@@ -4,6 +4,12 @@ const cheerio = require("cheerio");
 const mjml = require("mjml");
 const { exec } = require("child_process")
 
+const lockFilePath = './.git/index.lock';
+if (fs.existsSync(lockFilePath)) {
+  fs.unlinkSync(lockFilePath);
+  console.log("🧹 Cleaned up leftover Git lock file." )
+}
+
 // const nodemailer = require("nodemailer");
 
 async function scrapeData() {
@@ -97,3 +103,5 @@ updateMjmlEmail();
 // Added a github automatic push as the background using pm2,
 // make sure to have ssh installed in github as a key, and clone as ssh for macbook
 // Would need to update every Monday instead of every tuesday and set pm2 up again to happen every Monday
+
+// Generated a new comment to see if working
