@@ -5,9 +5,16 @@ const mjml = require("mjml");
 const { exec } = require("child_process")
 
 const lockFilePath = './.git/index.lock';
+const headLockPath = "./.git/refs/heads/main.lock";
+
 if (fs.existsSync(lockFilePath)) {
   fs.unlinkSync(lockFilePath);
-  console.log("🧹 Cleaned up leftover Git lock file." )
+  console.log("🧹 Cleaned up leftover index lock file.");
+}
+
+if (fs.existsSync(headLockPath)) {
+  fs.unlinkSync(headLockPath);
+  console.log("🧹 Cleaned up leftover HEAD lock file.");
 }
 
 // const nodemailer = require("nodemailer");
