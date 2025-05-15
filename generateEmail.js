@@ -31,10 +31,10 @@ async function scrapeData() {
       .attr("srcset");
     let img = $(".bulletinName a.name picture img").first().attr("src");
 
-    console.log({ date });
-    console.log({ link });
-    console.log({ picture });
-    console.log({ img });
+    // console.log({ date });
+    // console.log({ link });
+    // console.log({ picture });
+    // console.log({ img });
 
     let obj = { date, link, picture, img };
 
