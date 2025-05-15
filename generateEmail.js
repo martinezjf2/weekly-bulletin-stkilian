@@ -55,7 +55,7 @@ async function updateMjmlEmail() {
             <mj-text font-size='22px' font-weight='bold' color='#333' align='center'>📢 Stay Updated! View Our Latest Weekly Bulletin</mj-text>
             <mj-text font-size='18px' color='#555' align='center'>🗓 ${scrapedData.date}</mj-text>
             <mj-divider border-color='#ddd' width='60%'></mj-divider>
-            <mj-image src='${scrapedData.picture}' width='400px' border-radius='8px' target='_blank' href='${scrapedData.link}'></mj-image>
+            <mj-image src='${scrapedData.img}' width='400px' border-radius='8px' target='_blank' href='${scrapedData.link}'></mj-image>
             <mj-button href='${scrapedData.link}' target='_blank' font-size='18px' font-weight='bold' background-color='#007bff' color='white' border-radius='6px' padding='12px 24px' align='center'>📖 Read Now</mj-button>
         </mj-column>
     </mj-section>
